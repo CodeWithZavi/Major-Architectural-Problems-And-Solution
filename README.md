@@ -58,5 +58,5 @@ Follow these steps to run the code locally on your machine:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/microservices-architecture.git
-cd microservices-architecture
+git clone https://github.com/CodeWithZavi/Major-Architectural-Problems-And-Solution.git
+cd microservices-architecture 
