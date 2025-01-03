@@ -86,3 +86,61 @@ npm install
 cd ../api-gateway
 npm install
 
+# Project Setup
+
+## Step 3: Install Frontend Dependencies
+
+Navigate to the frontend folder:
+
+
+Install React dependencies:
+
+
+## Step 4: Start the Backend Services
+
+Start each of the backend services in separate terminal windows or tabs:
+
+### User Service
+
+Navigate to the user-service folder and run:
+
+
+Start the React app:
+
+
+This will run the React app on [http://localhost:3000](http://localhost:3000).
+
+## API Gateway Routes
+
+The API Gateway forwards requests to different services based on the following routes:
+
+- **`/users`**: Fetches a list of users from the User Service.
+- **`/orders`**: Fetches a list of orders from the Order Service.
+- **`/inventory`**: Fetches inventory data from the Inventory Service.
+
+## Testing the Application
+
+Open your browser and navigate to the React app:
+
+
+You should see:
+
+- A list of users fetched from the User Service.
+- A list of orders fetched from the Order Service.
+- A list of inventory items fetched from the Inventory Service.
+
+Each of these lists will be populated by data fetched from the backend services through the API Gateway.
+
+## Future Improvements
+
+- **Service Authentication and Authorization**: Secure the services with JWT or OAuth.
+- **Logging and Monitoring**: Integrate tools like Winston, Prometheus, or ELK Stack for enhanced logging and monitoring.
+- **Automated Tests**: Write unit and integration tests using frameworks like Mocha or Jest.
+
+## Contributors
+
+- **Code With Zavi** - Author and Developer
+
+## License
+
+This project is licensed under the MIT License.
