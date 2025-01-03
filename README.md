@@ -59,4 +59,30 @@ Follow these steps to run the code locally on your machine:
 
 ```bash
 git clone https://github.com/CodeWithZavi/Major-Architectural-Problems-And-Solution.git
-cd microservices-architecture 
+cd microservices-architecture
+
+# Microservices Architecture with API Gateway
+
+## Step 2: Install Backend Dependencies
+Navigate to the backend folder (for each service):
+
+- user-service
+- order-service
+- inventory-service
+- api-gateway
+
+Install dependencies in each service folder:
+
+```bash
+cd user-service
+npm install
+
+cd ../order-service
+npm install
+
+cd ../inventory-service
+npm install
+
+cd ../api-gateway
+npm install
+
